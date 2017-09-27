@@ -1,12 +1,13 @@
 ## [ChromeExtension] Auto Refresh And Switch Tabs
 
-###Auto Switch To Next Tab & Refresh Tab
+### Auto Switch To Next Tab & Refresh Tab
 
 Every 20 seconds :
 
-* Yours inactives tabs will be refreshed
-* The next tab will be activated
+* Switch to next tab
+* The next (+1) tab will be resfreshed
 
-## Install
+### Install
 
-Just add this extension to Chrome in developer mode
+- Clone or download this repo 
+- Just add this extension (parent folder) to Chrome in developer mode

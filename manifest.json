@@ -1,19 +1,19 @@
 {
-	"manifest_version": 2, // Indique la version du manifest (toujours 2)
- 	"name": "Auto Refresh Page By Mazel", // Le nom de votre extension
- 	"description": "Auto page refresh if tab is not active", // La description
- 	"version": "1.0", // La version en en l'occurrence la première donc 1.0
- 	"permissions": [ // Les permissions, on y reviendra plus bas
+	"manifest_version": 2,
+ 	"name": "Auto Refresh & Switch Tabs [By Mazel]",
+ 	"description": "Every 20 secondes : Switch to next tab & refresh next (+1) tab",
+ 	"version": "1.0",
+ 	"permissions": [
  		"http://*/*",
  		"https://*/*",
  		"tabs"
  	],
- 	"browser_action": {   // Les paramètres
-  		"default_icon" : "img/icon.png", // L'icône qui s'affiche en haut à droite de votre navigateur
-  		"default_popup": "popup.html" // Le popup qui s'affichera quand vous cliquez sur l'îcone
+ 	"browser_action": {
+  		"default_icon" : "img/icon.png",
+  		"default_popup": "popup.html"
 	},
- 	"icons": { // L'îcone qui s'affichera lorse que vous êtes sur la page extensions des paramètre
-  		"128" : "img/icon_128.png" // 128 = 128x128 la taille de votre image
+ 	"icons": { 
+  		"128" : "img/icon_128.png"
 	},
 	"background": {
 		"scripts": ["js/app.js"]
